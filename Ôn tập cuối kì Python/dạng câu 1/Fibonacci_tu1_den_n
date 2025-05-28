@@ -1,0 +1,23 @@
+def kt(n):
+    s1 = 0
+    s2 = 1
+    sn = 1
+    for i in range(1,n): #dùng đệ quy
+        s1 = s2
+        s2 = sn
+        sn = s2 + s1
+    return sn
+
+n = int(input("Nhap n: "))
+print("day finabocci voi n so la: ")
+gt = ""#2 var này để chứa gt sau khi duyệt
+ar = []
+if(n==0 and n==1):
+        print(n)
+else:
+    for i in range(n):    
+        gt = gt + str(kt(i)) + "," 
+        ar.append(kt(i))
+    print(gt)
+    print("Giá trị lớn nhất là: "+str(ar[n-1]))#phần tử cuối của mảng sẽ là lớn nhất và ngược lại
+    print("Giá trị nhỏ nhất là: "+str(ar[0]))
