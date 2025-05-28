@@ -1,0 +1,8 @@
+d1 
+caau 1: nhap 1 mang. tim cac phan tu la so hoan hao.
+caau 2:tao csdl QLThuvien gom cac ban.
+Tacgia(Matacgia, Tentacgia,Gioitinh)
+Sach(Masach, Tensach, Chungloai, Matacgia, Dongia, Ngayxb)
+
+-yc: 1, Theem 5 ban ghi cho 2 bang
+	2, in sach cua tac gia "Phạm Văn Ất"
